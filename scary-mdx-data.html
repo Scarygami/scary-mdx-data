@@ -74,12 +74,12 @@ This element also explains how the data should be structured for the other scary
         };
       }.bind(this));
       if (data.length > 0 && isRows) {
-        data[0].expanded = true;
+        data[0].expanded = false;
         data[0].hidden = false;
 
         for (var i = 1; i < data.length; i++) {
           if (data[i].members[0].level === data[0].members[0].level) {
-            data[i].expanded = true;
+            data[i].expanded = false;
             data[0].hidden = false;
           }
         }
