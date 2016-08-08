@@ -6,4 +6,4 @@ Ideally you would do this pre-processing in your backend.
 
 This element also explains how the data should be structured for the other scary-mdx elements.
 
-(WIP, I made change around this structure quite a bit depending on what needs I discover for the other elements)
+(WIP, I might change around this structure quite a bit depending on what needs I discover for the other elements)
